@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_4 OOP", "Task_4 OOP\Task_4 OOP.csproj", "{ABBA2AA6-E5B6-46B7-AB68-3462EDF68B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus Task", "Bonus Task\Bonus Task.csproj", "{214093EB-7EDE-4F28-8D66-46603F516701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ABBA2AA6-E5B6-46B7-AB68-3462EDF68B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBA2AA6-E5B6-46B7-AB68-3462EDF68B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBA2AA6-E5B6-46B7-AB68-3462EDF68B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214093EB-7EDE-4F28-8D66-46603F516701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214093EB-7EDE-4F28-8D66-46603F516701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214093EB-7EDE-4F28-8D66-46603F516701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214093EB-7EDE-4F28-8D66-46603F516701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
