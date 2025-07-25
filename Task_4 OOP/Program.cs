@@ -143,17 +143,13 @@
         public static void Deposit(Account acc, double amount)
         {
             Console.WriteLine($"\n--- Depositing {amount} ---");
-            Console.WriteLine(acc.Deposit(amount)
-                ? $"Deposited {amount} to {acc.Name}"
-                : $"Failed to deposit to {acc.Name}");
+            Console.WriteLine(acc.Deposit(amount) ? $"Deposited {amount} to {acc.Name}" : $"Failed to deposit to {acc.Name}");
         }
 
         public static void Withdraw(Account acc, double amount)
         {
             Console.WriteLine($"\n--- Withdrawing {amount} ---");
-            Console.WriteLine(acc.Withdraw(amount)
-                ? $"Withdrew {amount} from {acc.Name}"
-                : $"Failed to withdraw from {acc.Name}");
+            Console.WriteLine(acc.Withdraw(amount) ? $"Withdrew {amount} from {acc.Name}": $"Failed to withdraw from {acc.Name}");
         }
 
         public static void Save(Account acc)
@@ -162,12 +158,12 @@
             acc.Save();
         }
 
-        public static void Transfer(Account from, Account to, double amount)
+        public static void Transfer(Account Sender, Account Resever, double amount)
         {
-            Console.WriteLine($"\n--- Transferring {amount} from {from.Name} to {to.Name} ---");
-            if (from.Withdraw(amount))
+            Console.WriteLine($"\n--- Transferring {amount} from {Sender.Name} to {Resever.Name} ---");
+            if (Sender.Withdraw(amount))
             {
-                to.Deposit(amount);
+                Resever.Deposit(amount);
                 Console.WriteLine("Transfer successful.");
             }
             else
